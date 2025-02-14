@@ -1,0 +1,83 @@
+body {
+    background-color: #ffebf0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #d63384;
+}
+h1 {
+    font-size: 3em;
+    margin-top: 50px;
+}
+p {
+    font-size: 1.5em;
+}
+.heart {
+    font-size: 100px;
+    color: #ff4d6d;
+    animation: beat 1s infinite;
+    cursor: pointer;
+}
+@keyframes beat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+.message {
+    background-color: #fff;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 30px;
+}
+.footer {
+    margin-top: 50px;
+    font-size: 0.8em;
+}
+/* For You Button Styles */
+.for-you-btn {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.for-you-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+/* Flower For You Button Styles */
+.flower-for-you-btn {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.flower-for-you-btn:hover:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+/* Background Image for foryou.html */
+.foryou-bg {
+    background-image: url('yagna.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.message {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #d63384;
+}
